@@ -11,3 +11,9 @@ generator client {
 datasource db {
   provider = "postgresql"
 }
+
+model TypeQueue {
+  id_type_queue String @id @unique
+  name String?
+}
+

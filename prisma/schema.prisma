@@ -12,8 +12,8 @@ datasource db {
   provider = "postgresql"
 }
 
-model TypeQueue {
-  id_type_queue String @id @unique
+model TypeOfAsurance {
+  id_type_of_asurance String @id @unique
   name String?
 }
 
